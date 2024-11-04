@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "meme-do"
+version = "0.1.0"
+description = ""
+authors = ["dhruv <dhruv.nigam93@gmail.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = ">=3.10"
+python-dotenv = "^1.0.1"
+openai = "^1.51.2"
+python-fasthtml = "^0.8.0"
+loguru = "^0.7.2"
+requests = "^2.32.3"
+pillow = "^11.0.0"
+imageio = "^2.36.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
